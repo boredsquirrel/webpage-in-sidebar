@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "WhatsApp in Sidebar",
-  "version": "2.1.2",
-  "description": "Displays WhatsApp in the Sidebar",
+  "name": "WEBPAGE in Sidebar",
+  "version": "1.0.0",
+  "description": "Displays a WEBPAGE in the Sidebar",
   "background": {
     "scripts": ["src/background.js"]
   },
@@ -21,7 +21,7 @@
       "48": "src/icons/48x48.png",
       "96": "src/icons/96x96.png"
     },
-    "default_title": "WhatsApp",
+    "default_title": "WEBPAGE",
     "default_panel": "src/sidebar/panel.html"
   },
   "icons": {
@@ -33,7 +33,7 @@
       "suggested_key": {
         "default": "Alt+Shift+W"
       },
-      "description": "Toggle WhatsApp in the sidebar."
+      "description": "Toggle WEBPAGE in the sidebar."
     }
   },
   "browser_action": {
